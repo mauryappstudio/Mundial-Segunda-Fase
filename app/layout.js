@@ -28,6 +28,10 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0a0f1e" />
         <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+        <style dangerouslySetInnerHTML={{ __html: `
+          * { box-sizing: border-box; }
+          input, button, textarea, select { box-sizing: border-box; max-width: 100%; }
+        ` }} />
       </head>
       <body style={{ margin: 0, padding: 0, background: "#0a0f1e" }}>
         {children}
