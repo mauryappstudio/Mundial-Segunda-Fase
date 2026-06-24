@@ -37,6 +37,7 @@ export default function Login({ users, onLogin, onAdmin }) {
     padding: "9px 12px",
     fontSize: 14,
     width: "100%",
+    boxSizing: "border-box",
     outline: "none",
   };
   const lblStyle = { fontSize: 12, color: "#64748b", fontWeight: 600, marginBottom: 2, display: "block" };
@@ -131,3 +132,4 @@ export default function Login({ users, onLogin, onAdmin }) {
     </div>
   );
 }
+
