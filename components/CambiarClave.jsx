@@ -19,7 +19,7 @@ export default function CambiarClave({ user, obligatorio, onDone }) {
 
   const inputStyle = {
     background: "#1e293b", border: "1px solid #334155", color: "#e2e8f0",
-    borderRadius: 8, padding: "9px 12px", fontSize: 14, width: "100%", outline: "none",
+    borderRadius: 8, padding: "9px 12px", fontSize: 14, width: "100%", boxSizing: "border-box", outline: "none",
   };
   const lblStyle = { fontSize: 12, color: "#64748b", fontWeight: 600 };
 
@@ -58,3 +58,4 @@ export default function CambiarClave({ user, obligatorio, onDone }) {
     </div>
   );
 }
+
